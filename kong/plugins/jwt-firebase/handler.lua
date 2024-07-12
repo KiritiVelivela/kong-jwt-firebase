@@ -1,7 +1,7 @@
 local constants = require "kong.constants"
 local local_constants = require "kong.plugins.jwt-firebase.constants"
 local jwt_decoder = require "kong.plugins.jwt.jwt_parser"
-local openssl_pkey = require "openssl.pkey"
+local openssl_pkey = require "resty.openssl.pkey"
 
 local shm = "/dev/shm/kong.jwt-firebase.pubkey"
 local fmt = string.format
