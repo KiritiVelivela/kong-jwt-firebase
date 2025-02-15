@@ -6,11 +6,8 @@ This plugin is basically to verify the JWT Firbase Token following the [firebase
 What we need to run this plugin is just the firebase project name.
 
 #### Installtion
-[Find the plugin hosted in luarocks.](https://luarocks.org/modules/Simantakaushik/kong-jwt-firebase)
 
 ```bash
-luarocks install https://github.com/Simantakaushik/kong-plugin-jwt-firebase/raw/master/kong-jwt-firebase-2.0.0-22.all.rock
-or 
 luarocks install kong-jwt-firebase
 ```
 
