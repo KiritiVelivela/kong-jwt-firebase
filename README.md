@@ -92,29 +92,3 @@ Create the Lua rock in current directory:
 $ luarock make
 $ luarocks pack kong-jwt-firebase
 ```
-
-#### Acknowledgements
-- [Kong: Plugin Development Guide](https://getkong.org/docs/latest/plugin-development/)
-- [Kong: Development](https://github.com/Mashape/kong/blob/master/README.md#development)
-- [Kong: Test Suite](https://github.com/Mashape/kong#tests)
-- [Kong: Configuration](kong-docs-config)
-- [Luarocks: Kong search](https://luarocks.org/search?q=kong)
-- [Luarocks: Best Practices for Makefiles](https://github.com/keplerproject/luarocks/wiki/Recommended-practices-for-Makefiles)
-- [Luarocks: Creating a rock](https://github.com/keplerproject/luarocks/wiki/Creating-a-rock)
-
-#### License
-```
-Copyright 2016-2019 Kong Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
